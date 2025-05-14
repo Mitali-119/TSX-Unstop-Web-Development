@@ -1,0 +1,53 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background-color: #d58787;
+}
+
+article {
+    background-color: rgb(238, 210, 210);
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #750d0d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#ddd;
+}
